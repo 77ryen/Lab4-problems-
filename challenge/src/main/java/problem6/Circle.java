@@ -1,6 +1,6 @@
 package problem6;
 
-public class Circle extends Form {
+public class Circle extends Forme {
     private double radius;
 
     public Circle(double radius) {

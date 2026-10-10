@@ -1,8 +1,8 @@
 package problem6;
 
-public class TestForms {
+public class TestFormes {
     public static void main(String[] argv) {
-        Form[] figures = new Form[3];
+        Forme[] figures = new Forme[3];
         figures[0] = new Square(2);
         figures[1] = new Circle(3);
         figures[2] = new Square(5.2);

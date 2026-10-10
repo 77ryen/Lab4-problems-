@@ -1,6 +1,6 @@
 package problem6;
 
-public class Square extends Form {
+public class Square extends Forme {
     private double side;
 
     public Square(double side) {
