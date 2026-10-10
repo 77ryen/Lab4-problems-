@@ -12,6 +12,54 @@ public class Person {
         this.id = nextId++;
         this.firstName = firstName;
         // add others
+        this.secondName = secondName;
+        this.phone = telephone;
+        this.email = email;
     }
+
+    public Person() {
+        this.id = nextId++;
+        this.firstName = "";
+        this.secondName = "";
+        this.phone = "";
+        this.email = "";
+    }
+
+    int getId() {
+        return this.id;
+    }
+    String getFirstName() {
+        return this.firstName;
+    }
+    String getSecondName() {
+        return this.secondName;
+    }
+    String getPhone() {
+        return this.phone;
+    }
+    String getEmail() {
+        return this.email;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+    public void setSecondName(String secondName) {
+        this.secondName = secondName;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Person[" + id + ", " + firstName + ", " + secondName + ", " + phone + ", " + email + "]";
+    }
+
+
 }
 
