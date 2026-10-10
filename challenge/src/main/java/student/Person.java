@@ -25,19 +25,19 @@ public class Person {
         this.email = "";
     }
 
-    int getId() {
+    public int getId() {
         return this.id;
     }
-    String getFirstName() {
+    public String getFirstName() {
         return this.firstName;
     }
-    String getSecondName() {
+    public String getSecondName() {
         return this.secondName;
     }
-    String getPhone() {
+    public String getPhone() {
         return this.phone;
     }
-    String getEmail() {
+    public String getEmail() {
         return this.email;
     }
 
